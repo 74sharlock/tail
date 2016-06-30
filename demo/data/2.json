@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "hasFriends": false
+  },
+  {
+    "id": 2,
+    "hasFriends": true
+  },
+  {
+    "id": 3,
+    "hasFriends": false
+  },
+  {
+    "id": 4,
+    "hasFriends": true
+  },
+  {
+    "id": 5,
+    "hasFriends": false
+  },
+  {
+    "id": 6,
+    "hasFriends": true
+  },
+  {
+    "id": 7,
+    "hasFriends": false
+  },
+  {
+    "id": 8,
+    "hasFriends": true
+  },
+  {
+    "id": 9,
+    "hasFriends": false
+  },
+  {
+    "id": 10,
+    "hasFriends": true
+  }
+]
