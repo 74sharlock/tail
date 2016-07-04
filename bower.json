@@ -10,7 +10,6 @@
     "ajax"
   ],
   "homepage": "https://github.com/74sharlock/tail",
-  "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
