@@ -1,0 +1,21 @@
+{
+  "name": "tail-ajax",
+  "description": "a ajax lib",
+  "main": "./src/tail.js",
+  "authors": [
+    "74sharlock"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "ajax"
+  ],
+  "homepage": "https://github.com/74sharlock/tail",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
