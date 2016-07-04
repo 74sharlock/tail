@@ -1,14 +1,16 @@
 //umd模块格式 适用于amd, cmd以及nodejs模块
 (function (root, factory) {
     if (typeof define === 'function' && define.amd) {
-        define(factory());
-    } else if (typeof exports === 'object') {
+        define(function () {
+            return factory();
+        });
+    } else if (typeof(module) !== 'undefined') {
         module.exports = factory();
     } else {
         root.tail = factory();
     }
 }(this, function () {
-    
+
     //变量类型检测
     var getType = function () {
         var l = arguments.length, arr = [];
@@ -17,11 +19,11 @@
         });
         return l === 1 ? arr[0] : arr;
     };
-    
+
     //空函数
     var noop = function () {};
 
-    
+
 
     var tail = function (computedState, proxy) {
         var resolveCallback = noop, rejectCallback = noop, state;
@@ -62,8 +64,8 @@
 
         return methods
     };
-    
-    
+
+
 
     //单个ajax方法
     tail.ajax = function (url) {
@@ -174,7 +176,7 @@
             fail: fail
         };
     };
-    
+
     return tail;
 
 }));
