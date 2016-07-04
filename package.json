@@ -2,7 +2,7 @@
   "name": "tail-ajax",
   "version": "0.0.1",
   "description": "a ajax lib",
-  "main": "index.js",
+  "main": "./src/tail.js",
   "scripts": {
     "makedata": "node ./index"
   },
