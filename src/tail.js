@@ -147,7 +147,7 @@
 
             xhr.onload = function() {
                 count ++;
-                dataList.push(getType(xhr.responseText) === 'string' ? JSON.parse(xhr.responseText) : xhr.responseText);
+                dataList[index] = getType(xhr.responseText) === 'string' ? JSON.parse(xhr.responseText) : xhr.responseText;
                 count === urls.length && resolveCallback && resolveCallback.apply(xhr, [dataList]);
             };
 
