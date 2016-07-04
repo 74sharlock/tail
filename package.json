@@ -4,7 +4,7 @@
   "description": "a ajax lib",
   "main": "./src/tail.js",
   "scripts": {
-    "test": "makedata"
+    "makedata": "node ./index"
   },
   "repository": {
     "type": "git",
