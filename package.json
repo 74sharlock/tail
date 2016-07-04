@@ -1,11 +1,22 @@
 {
-  "name": "tail",
+  "name": "tail-ajax",
   "version": "0.0.1",
-  "description": "",
+  "description": "a ajax lib",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "makedata": "node ./index"
   },
   "author": "74sharlock",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/74sharlock/tail.git"
+  },
+  "keywords": [
+    "ajax"
+  ],
+  "bugs": {
+    "url": "https://github.com/74sharlock/tail/issues"
+  },
+  "homepage": "https://github.com/74sharlock/tail#readme"
 }

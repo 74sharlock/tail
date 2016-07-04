@@ -12,7 +12,7 @@ R(function () {
         }).fail(function () {
             console.log(this);
         });
-    }); //去控制台设置testObj.state的值 查看输出结果
+    }); //去控制台设置testObj.state的值 查看输出结果 
     
     
     
