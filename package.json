@@ -1,0 +1,22 @@
+{
+  "name": "tail",
+  "version": "0.0.1",
+  "description": "a ajax lib",
+  "main": "./src/tail.js",
+  "scripts": {
+    "test": "makedata"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/74sharlock/tail.git"
+  },
+  "keywords": [
+    "ajax"
+  ],
+  "author": "74sharlock",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/74sharlock/tail/issues"
+  },
+  "homepage": "https://github.com/74sharlock/tail#readme"
+}
